@@ -7,7 +7,7 @@
   html[data-theme="light"] {
     --color-fill: 244, 244, 245;
     --color-text-base: 82, 82, 91;
-    --color-accent: 139, 92, 246;
+    --color-accent: 167, 139, 250;
     --color-card: 230, 230, 230;
     --color-card-muted: 205, 205, 205;
     --color-border: 236, 233, 233;
@@ -16,8 +16,8 @@
     --color-fill: 39, 39, 42;
     --color-text-base: 234, 237, 243;
     --color-accent: 139, 92, 246;
-    --color-card: 52, 63, 96;
-    --color-card-muted: 138, 51, 2;
+    --color-card: 63, 63, 70;
+    --color-card-muted: 167, 139, 250;
     --color-border: 139, 92, 246;
   }
   #sun-svg,
