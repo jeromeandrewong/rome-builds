@@ -16,7 +16,7 @@ const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
-const socialCount = SOCIALS.filter(social => social.active).length;
+const socialCount = SOCIALS.filter((social) => social.active).length;
 ---
 
 <Layout>
@@ -26,7 +26,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <h1>Rome<span class="text-skin-accent">Builds</span></h1>
       <p>~~~ IN PROGRESS ~~~</p>
       <p>
-        Welcome to my personal site where I document my journey as an aspiring
+        Welcome to my personal blog where I document my journey as an aspiring
         software developer. I am enthusiastic about web development and
         product-first engineering.
       </p>
