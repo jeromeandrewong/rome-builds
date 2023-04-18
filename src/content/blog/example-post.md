@@ -367,7 +367,7 @@ const TriangleInfo = () => {
   const [perimeter, setPerimeter] = useState<number | null>(null);
   const [areas, setArea] = useState<number | null>(null);
   useEffect(() => {
-    fetchTriangle().then(t => setTriangleInfo(t));
+    fetchTriangle().then((t) => setTriangleInfo(t));
   }, []);
   useEffect(() => {
     if (!triangleInfo) {
@@ -401,7 +401,7 @@ const TriangleInfo = () => {
     b: number;
   } | null>(null);
   useEffect(() => {
-    fetchTriangle().then(r => setTriangleInfo(r));
+    fetchTriangle().then((r) => setTriangleInfo(r));
   }, []);
   if (!triangleInfo) {
     return;
