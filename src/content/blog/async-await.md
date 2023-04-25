@@ -1,5 +1,5 @@
 ---
-title: Async/Await Javascript
+title: Async and Await in Javascript
 author: Jerome
 pubDatetime: 2023-04-25T02:05:51Z
 featured: false

@@ -2,7 +2,6 @@
 import { SITE } from "@config";
 import "@styles/base.css";
 import "@fontsource/inter";
-import logo from "../assets/logo.png";
 export interface Props {
   title?: string;
   author?: string;
@@ -30,7 +29,7 @@ const socialImageURL = new URL(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="shortcut icon" href={logo} />
+    <link rel="shortcut icon" href="../assets/logo.png" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
