@@ -11,9 +11,14 @@ I am an Information Systems student, Coffee Snob, Cafe Hopper, amateur Poker Pla
   <img src="/assets/cat1.png" class="w-1/3 rounded-md" alt="cats">
   <img src="/assets/cat2.png" class="w-1/3 rounded-md" alt="cats">
   <img src="/assets/cat3.png" class="w-1/3 rounded-md" alt="cats">
-  <!-- <img src="/assets/cat4.png" class="w-1/4 rounded-md" alt="cats"> -->
 </div>
 
 ## Current Favourite Tech Stack
 
-## Learning Next
+[T3 Stack](https://create.t3.gg/):
+
+- Next.js
+- NextAuth.js / [Clerk](https://clerk.com/)
+- Prisma
+- tRPC
+- TailwindCSS / [shadcn/ui](https://ui.shadcn.com/)
