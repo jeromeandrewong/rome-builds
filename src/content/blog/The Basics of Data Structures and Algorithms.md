@@ -51,4 +51,4 @@ Just because N is faster than N^2 does't mean its always faster for smaller inpu
 
 ### Common Complexities
 
-![](/public/complexity.png)
+![](/complexity.png)

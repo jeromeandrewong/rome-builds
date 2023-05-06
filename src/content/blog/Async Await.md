@@ -26,7 +26,7 @@ A special Javascript specific syntax to work with promises.
 
 ## 1. What are Promises
 
-A Javascript promise, simply put, is an unknown value now that might be known in the future. It manages a single async vlue that can be handled in the future.
+A Javascript promise, simply put, is an unknown value now that might be known in the future. It manages a single async value that can be handled in the future.
 
 ### 1.1 States of a Promise
 
