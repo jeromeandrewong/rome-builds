@@ -1,13 +1,13 @@
 ---
 title: Typescript Generics
 author: Jerome
-pubDatetime: 2023-05-16T02:05:51Z
+pubDatetime: 2023-05-14T02:05:51Z
 featured: false
 draft: false
 tags:
   - Typescript
 ogImage: ""
-description: "<T> in Typescript"
+description: "Explaining Generics in Typescript"
 ---
 
 # Generics?
