@@ -16,7 +16,8 @@ description: "Implementing the Stack and Queue data structure (in TS)"
 
 ## concepts
 
-- First in First ot
+- First in First out
+- based on linked list data structure
 - enqueue
   - increment length
   - base case for empty queue, tail = head = item
@@ -69,6 +70,62 @@ export default class Queue<T> {
       this.tail = undefined;
     }
     return head.value;
+  }
+  peek(): T | undefined {
+    return this.head?.value;
+  }
+}
+```
+
+# Stack
+
+## Concepts
+
+- based on linkedlist as well
+- push
+  - base case when empty stack, simply assign item to head
+  - else assign new item to old head, and reassign head to new itme
+- pop
+  - decrement length but must be min 0
+  - base case when popping makes stack empty, set head to undefined and return item
+  - else assign new head to prev item and return popped item
+- peek
+
+```typescript
+type Node<T> = {
+  value: T;
+  prev?: Node<T>;
+};
+
+export default class Stack<T> {
+  public length: number;
+  private head?: Node<T>;
+
+  constructor() {
+    this.head = undefined;
+    this.length = 0;
+  }
+
+  push(item: T): void {
+    const node = { value: item } as Node<T>;
+    this.length++;
+    if (!this.head) {
+      this.head = node;
+      return;
+    }
+    node.prev = this.head;
+    this.head = node;
+  }
+  pop(): T | undefined {
+    this.length = Math.max(0, this.length - 1);
+    if (this.length === 0) {
+      const head = this.head;
+      this.head = undefined;
+      return head?.value;
+    }
+    const popItem = this.head as Node<T>;
+    this.head = popItem.prev;
+    return popItem.value;
   }
   peek(): T | undefined {
     return this.head?.value;
