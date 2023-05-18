@@ -12,7 +12,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   return (
     <li className="my-1">
       <a href={href}>
-        <div className="border-zinc-500 w-full rounded-lg border-b bg-gradient-to-r from-zinc-500 to-stone-500 p-1 shadow-lg  shadow-zinc-200/10 duration-300 hover:scale-[101%] hover:shadow-xl  hover:shadow-zinc-200/10">
+        <div className="border-zinc-500 w-full rounded-lg border-b bg-gradient-to-r from-zinc-500 to-stone-500 p-1 shadow-lg  shadow-zinc-200/10 duration-300 hover:scale-[101%] hover:shadow-md  hover:shadow-zinc-200/10">
           <div className="flex h-full w-full cursor-pointer flex-col justify-between gap-3 rounded-[4px] bg-skin-fill p-4">
             <div className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">
               {secHeading ? (
