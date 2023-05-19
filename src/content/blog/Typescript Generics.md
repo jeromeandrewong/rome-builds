@@ -13,7 +13,7 @@ description: "Explaining Generics in Typescript"
 # Generics?
 
 - pretty clear definition taken from official TS docs
-  ![](/public/assets/blogimages/genericsdef.png)
+  ![](/assets/blogimages/genericsdef.png)
 
 ## The T Generic
 
