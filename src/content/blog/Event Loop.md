@@ -14,7 +14,7 @@ description: "Understanding Javascript's runtime model"
 
 The event loop is a single-threaded loop that monitors the call staack and checks if there is any work to be done in the task queue. If the call stack is empty and there are callback functions in the task queue, a function is dequeued and pushed onto the call stack to be executed.
 
-## Component of an event loop
+## Components of an event loop
 
 ![](/eventloop.png)
 
