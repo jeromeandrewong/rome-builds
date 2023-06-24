@@ -90,7 +90,7 @@ const { activeNav } = Astro.props;
           {
             LOGO_IMAGE.enable ? (
               <img
-                class="rounded-full"
+                class="aspect-square rounded-full  object-cover"
                 src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
                 alt="Jerome"
                 width={LOGO_IMAGE.width}
